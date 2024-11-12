@@ -1,0 +1,189 @@
+/* Cores principais */
+:root {
+  --primary-color: #ff6b6b;  /* Um tom de laranja */
+  --secondary-color: #4a90e2;  /* Azul */
+  --background-color: #f9f9f9;
+  --text-color: #333;
+  --light-gray: #e6e6e6;
+  --hover-color: #ffa726;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+/* Barra de navegação */
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.nav__logo img {
+  width: 150px;
+}
+
+.nav__list .nav__link {
+  color: var(--secondary-color);
+  font-weight: bold;
+  padding: 10px;
+}
+
+.nav__list .nav__link:hover {
+  color: var(--primary-color);
+}
+
+/* Botões */
+.button {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: var(--hover-color);
+}
+
+/* Best Selling Products */
+.best-selling .section__title {
+  color: var(--secondary-color);
+  text-align: center;
+  margin-top: 60px;
+  font-size: 2rem;
+}
+
+/* Categorias */
+.categories {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: var(--light-gray);
+  margin: 20px 0;
+}
+
+.category {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 200px;
+}
+
+.category img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.category-content h3 {
+  color: var(--primary-color);
+}
+
+.category button {
+  margin-top: 10px;
+}
+
+/* Coleção de produtos */
+.collection__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.collection__content {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  max-width: 200px;
+}
+
+.collection__tag {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.collection__prices .collection__price {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}
+
+.collection__prices .collection__discount {
+  font-size: 0.9rem;
+  text-decoration: line-through;
+  color: var(--text-color);
+}
+
+/* Newsletter */
+.newsletter__container {
+  background-color: var(--light-gray);
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.newsletter__input {
+  padding: 10px;
+  width: 60%;
+  border-radius: 5px;
+  border: 1px solid var(--secondary-color);
+  margin-right: 10px;
+}
+
+.newsletter__input:focus {
+  border-color: var(--primary-color);
+}
+
+/* Rodapé */
+.footer {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 40px;
+}
+
+.footer__title, .footer__nome {
+  color: #fff;
+}
+
+.footer__links .footer__link {
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.footer__copy {
+  text-align: center;
+  font-size: 0.9rem;
+  padding-top: 20px;
+}
+
+/* Efeito de scroll-up */
+.scrollup {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.scrollup:hover {
+  background-color: var(--hover-color);
+}

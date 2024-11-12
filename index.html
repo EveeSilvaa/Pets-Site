@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+                    <!--Favicon-->
+    <link rel="icon" href="assets/image/favicon.png" type="image/favincon"/>
+
+                    <!--Icon de caixa-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+ 
+                    <!--Swiper CSS-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+                    <!--Style CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    
+    <title>Scobylo Shop</title>
+</head>
+<body>
+    <!--Banner-->
+    <!-- <div class="banner">
+        <div class="flexslider">
+            <ul>
+                <li><img src="assets/img/banner.jpg"/></li>
+            </ul>
+        </div>
+    </div> -->
+
+    <!--Header-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <!--Logo-->
+            <a href="#" class="nav__logo">
+                <img src="assets/img/icon2.png" alt="" class="nav__logo">   
+            </a>
+
+            <!--Menu-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li><a href="#about" class="nav__link">Shop</a></li>
+                    <li><a href="#pages" class="nav__link">Pages</a></li>
+                    <li><a href="#blog" class="nav__link">Blog</a></li>
+                    <li><a href="#contactus" class="nav__link">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!--Barra de Pesquisa-->
+            <div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="Buscar...">
+            </div>
+
+            <!---Icons--->
+            <div class="nav__icons">
+                <i class='bx bx-heart'></i>
+                <i class='bx bx-user'></i>
+                <i class='bx bx-cart'></i>
+                <span class="cart-total">R$ 0,00</span>
+            </div>
+        </nav>
+    </header>
+        
+        <!--best selling-->
+        <section class="best-selling">
+            <h2 class="section__title">Best Selling Products</h2>
+            <div class="Product-list" id="product-list"></div>
+        </section>
+
+
+        <!--Categoria-->
+        <section class="categories">
+            <div class="category">
+                <img src="assets/img/food.jpg">
+                <div class="category-content">
+                    <h3>50% Off</h3>
+                    <p>Pet Food & Acessories</p>
+                </div>
+            </div>
+            <div class="category">
+                <div class="category-content">
+                    <img src="assets/img/backgroud1.png">
+                    <h3>30% Sale Off</h3>
+                    <p>Free Shipping</p>
+                    <button>Shop Now</button>
+                </div>
+            </div>
+            <div class="category">
+                <div class="category-content">
+                    <img src="assets/img/back3.png">
+                    <h3>Fish Food</h3>
+                    <p>Healthy Formula</p>
+                </div>
+        </section> 
+        
+        <!--Novas chegadas-->
+        <section class="pet-collection" id="collection">
+            <h2>Collection of Best Pet Products</h2>
+
+            <div class="collection__container container">
+                <div class="swiper collection-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="collection__content swiper-slider">
+                            <div class="collection__tag">New</div>
+                            <img src="assets/img/pedigri.png" alt="" class="collection__img">
+                            <h3>petiscos pedigri</h3>
+                            <span class="collection__subtitle">Petiscos</span>
+
+                            <!--Preços-->
+                            <div class="collection__prices">
+                                <span class="collection__price">R$ 144,40</span>
+                                <span class="collection__discount">R$24,80</span>
+                            </div>
+
+                            <button class="button collection__button">
+                                <i class='bx bx-cart-alt collection__icon'></i>
+                            </button>
+                        </div>
+
+                        <div class="collection__content swiper-slider">
+                            <div class="collection__tag">New</div>
+                            <img src="assets/img/kit-banho.png" alt="" class="collection__img">
+                            <h3>kit Nutri pelos</h3> 
+                            <span class="collection__subtitle">Produtos</span>
+
+                            <div class="collection__prices">
+                                <span class="collection__price">R$ 43,50</span>
+                                <span class="collection__discount">R$ 20,00</span>
+                            </div>
+
+                            <button class="button collection__button">
+                                <i class='bx bx-cart-alt collection__icon'></i>
+                            </button>
+                        </div>
+
+                        <div class="collection__content swiper-slider">
+                            <div class="collection__tag">New</div>
+                            <img src="assets/img/vitaC.png" alt="" class="collection__img">
+                            <h3>vitamina para gato</h3>
+                            <span class="collection__subtitle">Produtos</span>
+
+                            <div class="collection__prices">
+                                <span class="collection__price">R$ 20,99</span>
+                                <span class="collection__discount">R$ 9,90</span>
+                            </div>
+
+                            <button class="button collection__button">
+                                <i class='bx bx-cart-alt collection__icon'></i>
+                            </button>
+                        </div>
+
+                        <div class="collection__content swiper-slider">
+                            <div class="collection__tag">New</div>
+                            <img src="assets/img/cama-PET.png" alt="" class="collection__img">
+                            <h3>Camas</h3>
+                            <span class="collection__subtitle">Produtos</span>
+
+                            <div class="collection__prices">
+                                <span class="collection__price">R$ 350,99</span>
+                                <span class="collection__discount">R$ 20,90</span>
+                            </div>
+
+                            <button class="button collection__button">
+                                <i class='bx bx-cart-alt collection__icon'></i>
+                            </button>
+                        </div>
+
+                        <div class="collection__content swiper-slider">
+                            <div class="collection__tag">New</div>
+                            <img src="assets/img/desembaracador-.png" alt="" class="collection__img">
+                            <h3>Desembaraçador de Pelos</h3>
+                            <span class="collection__subtitle">Produtos</span>
+
+                            <div class="collection__prices">
+                                <span class="collection__price">R$ 20,99</span>
+                                <span class="collection__discount">R$ 9,90</span>
+                            </div>
+
+                            <button class="button collection__button">
+                                <i class='bx bx-cart-alt collection__icon'></i>
+                            </button>
+                        </div>
+
+                        <div class="collection__content swiper-slider">
+                            <div class="collection__tag">New</div>
+                            <img src="assets/img/kit_brinquedo_pet.png" alt="" class="collection__img">
+                            <h3>Kit Brinquedo Pet</h3>
+                            <span class="collection__subtitle">2 Pelúcias</span>
+
+                            <div class="collection__prices">
+                                <span class="collection__price">R$ 69,90</span>
+                                <span class="collection__discount">R$ 12,90</span>
+                            </div>
+
+                            <button class="button collection__button">
+                                <i class='bx bx-cart-alt collection__icon'></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--nossa newsletter-->
+        <section class="section newsletter">
+            <div class="newsletter__container container">
+                <h2 class="section__title">Our Newsletter</h2>
+                <p class="newsletter__description">
+                    Promotion new products and sales. Directly to your inbox
+                </p>
+
+                <form action="" class="newsletter__form">
+                    <input type="text" placeholder="Enter your email" class="newsletter__input">
+                    <button class="button">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!--Rodapé-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <!--Primeira Coluna: Logo e Redes sociais-->
+                <div class="footer__content">
+                    <a href="#" class="footer__nome">PeetFeliz</a>
+                    <p class="footer__description">Enjoy the most incredible promotion<br>for your pet</p>
+
+                    <!-- Redes Sociais com Aria-labels para Acessibilidade -->
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/" target="__blank" class="footer__social-link">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="__blank" class="footer__social-link">
+                            <i class='bx bxl-instagram-alt'></i>
+                        </a>
+                    </div>
+                </div>
+
+                 <!-- Segunda Coluna: Sobre Nós -->
+                <div class="footer__content">
+                    <h3 class="footer__title">About Us</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">About Us</a></li>
+                        <li><a href="#" class="footer__link">Features</a></li>
+                        <li><a href="#" class="footer__link">News</a></li>
+                    </ul>
+                </div>
+
+                <!-- Terceira Coluna: Nossos Serviços -->
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Services</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Princing</a></li>
+                        <li><a href="#" class="footer__link">Discounts</a></li>
+                        <li><a href="#" class="footer__link">Shipping mode</a></li>
+                    </ul>
+                </div>
+
+                <!-- Quarta Coluna: Nossa Empresa -->
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Company</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Blog</a></li>
+                        <li><a href="#" class="footer__link">About Us</a></li>
+                        <li><a href="#" class="footer__link">Our mission</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Direitos Autorais com Ano Dinâmico -->
+            <span class="footer__copy">&#169; <span id="current-year"></span> Evellyn Silva. All rights reserved</span>
+        </footer>
+
+        <script>
+            // Script para exibir o ano atual automaticamente
+            document.getElementById("current-year").textContent = new Date().getFullYear();
+        </script>
+
+            <!--scroll up-->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class='bx bx-up-arrowalt scrollup__icon'></i>
+            </a>
+
+            <!--scroll reveal-->
+            <script src="assets/js/scrollreveal.min.js"></script>
+
+            <!--swiper js-->
+            <script src="assets/js/swiper-bundle.min.js"></script>
+
+            <!--main js-->
+            <script src="assets/js/main.js"></script>
+    </body>
+</html>
