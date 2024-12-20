@@ -1,4 +1,4 @@
-# PetLove
+# PetLove 😺🐶
 
 **PetLove** é um projeto de um petshop online criado com foco em oferecer uma experiência simples e intuitiva para amantes de animais. Este repositório contém o código-fonte do site, desenvolvido com tecnologias modernas como HTML5, CSS3, SCSS e JavaScript.
 
